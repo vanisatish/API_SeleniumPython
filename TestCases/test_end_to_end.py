@@ -14,7 +14,7 @@ import requests
 
     # adding address
     add_api_url = "http://thetestingworldapi.com/api/addresses"
-    file = open('C:/Users/satis/AppData/Local/Programs/Python/Python37-32/APIAutomation/GET_Request/postaddressjson.json', 'r')
+    file = open('C:/Users/APIAutomation/GET_Request/postaddressjson.json', 'r')
     request_json = json.loads(file.read())
     request_json['stId'] = str(id([0]))
     response = requests.post(add_api_url, request_json)
