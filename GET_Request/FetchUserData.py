@@ -19,6 +19,7 @@ print(json_response)
 
 # fetch specific value from the response by using json path
 pages = jsonpath.jsonpath(json_response, 'total_pages')
-print(pages[0])   # print pages of index 1 i.e. first value of total pages
+# print pages of index 1 i.e. first value of total pages
+print(pages[0])  
 # fetch first value of the json value
 assert pages[0] == 2
