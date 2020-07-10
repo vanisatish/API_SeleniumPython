@@ -5,7 +5,7 @@ import requests
 
     # adding technical details
     tech_api_url = "http://thetestingworldapi.com/api/technicalskills"
-    file = open('C:/Users/satis/AppData/Local/Programs/Python/Python37-32/APIAutomation/GET_Request/postjson.json', 'r')
+    file = open('C:/Users/APIAutomation/GET_Request/postjson.json', 'r')
     request_json = json.loads(file.read())
     request_json['id'] = int(id([0]))
     request_json['st_id'] = int(id([0]))
