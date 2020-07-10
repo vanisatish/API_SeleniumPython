@@ -4,7 +4,7 @@ import jsonpath
 
 url = 'https://reqres.in/api/users'
 # read input json file
-file = open('C:/Users/satis/AppData/Local/Programs/Python/Python37-32/APIAutomation/CreatejsonUser.json', 'r')
+file = open('C:/Users/APIAutomation/CreatejsonUser.json', 'r')
 json_input = file.read()
 # parse or typecast data into json format as the default format is string
 request_json = json.loads(json_input)
