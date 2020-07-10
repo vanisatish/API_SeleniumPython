@@ -2,10 +2,10 @@ import requests
 import json
 import jsonpath
 
-url = "https://reqres.in/api/users?page=2"  # API URL
+ # API URL
+url = "https://reqres.in/api/users?page=2" 
 
 
-#def test_FetchData():
 # Send GET request
 print('Success at last')
 response = requests.get(url)
